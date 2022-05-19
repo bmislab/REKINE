@@ -29,7 +29,7 @@ git clone --recurse-submodules https://github.com/sccn/eeglab.git
 
 5. The results of the code will be always shown in the command window
 
-6. 
+6. Please send feedback and suggestions to: eianez@umh.es
 
 # In publications, please reference:
 
