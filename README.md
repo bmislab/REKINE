@@ -4,7 +4,7 @@
 
 # What is bmislab?
 The Brain-Machine Interface Systems Lab (BMISLAB) is a team of researchers led by José María Azorín. Our work focuses on human-machine interaction through brain control in order to improve human capabilities in neural rehabilitation.
-This repository is an open source signal processing environment for electroencephalography (EEG) signals running on Matlab. This folder contains original Matlab functions from the BMISLAB.
+This repository is an open source signal processing environment for electroencephalography (EEG) signals running on Matlab. This folder contains original Matlab functions from the BMISLAB that have been adapted to the context of the EUROBENCH project, REKINE.
 
 # Installing/cloning
 **Recommended:** Download both dataset (enlace) and code (enlace) as a separated zips and open them in the same folder.
