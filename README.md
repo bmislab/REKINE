@@ -1,5 +1,5 @@
 # REKINE
-[![GitHub issues](https://img.shields.io/github/issues/sccn/eeglab?color=%23fa251e&logo=GitHub)](https://github.com/bmislab/REKINE/issues)
+[![GitHub issues](https://img.shields.io/github/issues/sccn/bmsilab?color=%23fa251e&logo=GitHub)](https://github.com/bmislab/REKINE/issues)
 ![Twitter Follow](https://img.shields.io/twitter/follow/BMISLab?style=social)
 
 # What is bmislab?
