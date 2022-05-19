@@ -3,40 +3,37 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/BMISLab?style=social)
 
 # What is bmislab?
-BMISLAB is an open source signal processing environment for electrophysiological signals running on Matlab and Python. This folder contains original Matlab functions from the BMISLAB.
+The Brain-Machine Interface Systems Lab (BMISLAB) is a team of researchers led by José María Azorín. Our work focuses on human-machine interaction through brain control in order to improve human capabilities in neural rehabilitation.
+This repository is an open source signal processing environment for electroencephalography (EEG) signals running on Matlab. This folder contains original Matlab functions from the BMISLAB.
 
 # Installing/cloning
-**Recommended:** Download the official EEGLAB release from https://sccn.ucsd.edu/eeglab/download.php
-
-**Do not download a ZIP file directly from GIT as it will not contain EEGLAB submodules**. Instead clone the reposity while pulling EEGLAB sub-modules.
-
+**Recommended:** Download both dataset (enlace) and code (enlace) as a separated zips and open them in the same folder.
 ```
 git clone --recurse-submodules https://github.com/sccn/eeglab.git
 ```
 
 # Sub-directories:
 
- - /functions - All distributed EEGLAB functions (admin, sigproc, pop, misc)
- - /plugins   - Directory to place all downloaded EEGLAB plug-ins. dipfit (1.0) is present by default
- - /sample_data -  Miscellaneous EEGLAB data using in tutorials and references
- - /sample_locs -  Miscellaneous standard channel location files (10-10, 10-20). See the EEGLAB web site http://sccn.ucsd.edu/eeglab/ for more.
+ - /code - All distributed REKINE functions (new_preprocesar_standarized, select_files, load_session, multi_linear_regression, plot_decoded_trajectories)
+ - /EEG_dataset   - Directory to place all the recorded data of the REKINE project experiments
 
-# To use EEGLAB: 
+# To use REKINE code: 
 
 1. Start Matlab
 
-2. Use Matlab to navigate to the folder containing EEGLAB
+2. Use Matlab to navigate to the folder containing the codes
 
-3. Type "eeglab" at the Matlab command prompt ">>" and press enter
+3. Type "[C_corr_out,X_dec_out]=new_preprocesar_standarized(G,L,N,filter_freq,resampling,show_flag)" at the Matlab command prompt ">>", fill the input parameters as desired, but always following the function indications and press enter
 
-3. Open the main EEGLAB tutorial page (http://sccn.ucsd.edu/wiki/EEGLAB_Wiki)
+4. When the explorer oppens, select all the CSV files corresponging to the desired trials for one speficic subject.
 
-4. Please send feedback and suggestions to: eeglab@sccn.ucsd.edu
+5. The results of the code will be always shown in the command window
+
+6. 
 
 # In publications, please reference:
 
-Delorme, A., & Makeig, S. (2004). EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. Journal of neuroscience methods, 134(1), 9-21. (See article [here](http://sccn.ucsd.edu/eeglab/download/eeglab_jnm03.pdf))
+Úbeda, A., Planelles, D., et al., “Decoding knee angles from EEG signals for different walking speeds,” Conf. Proc. - IEEE Int. Conf. Syst. Man Cybern., vol. 2014-Janua, no. January, pp. 1475–1478, 2014, doi: 10.1109/smc.2014.6974123. (See article [here](https://ieeexplore.ieee.org/document/6974123))
  
 # Documentation:
 
-EEGLAB documentation is available on the EEGLAB wiki (see http://sccn.ucsd.edu/wiki/EEGLAB_Wiki for more details).
