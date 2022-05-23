@@ -9,7 +9,8 @@ This repository is an open source signal processing environment for electroencep
 # Installing/cloning
 **Recommended:** Download both dataset (enlace) and code (enlace) as a separated zips and open them in the same folder.
 ```
-git clone --recurse-submodules https://github.com/sccn/eeglab.git
+code analysis --  https://github.com/bmislab/REKINE/tree/main/Code
+dataset -- 
 ```
 
 # Sub-directories:
@@ -21,9 +22,9 @@ git clone --recurse-submodules https://github.com/sccn/eeglab.git
 
 1. Start Matlab
 
-2. Use Matlab to navigate to the folder containing the codes
+2. Use Matlab to navigate to the folder containing the codes.
 
-3. Type "[C_corr_out,X_dec_out]=new_preprocesar_standarized(G,L,N,filter_freq,resampling,show_flag)" at the Matlab command prompt ">>", fill the input parameters as desired, but always following the function indications and press enter
+3. Type "[C_corr_out,X_dec_out]=new_preprocesar_standarized(G,L,N,filter_freq,resampling,show_flag)" at the Matlab command prompt ">>", fill the input parameters as desired, but following the requirements stated in the function and press enter.
 
 4. When the explorer oppens, select all the CSV files corresponging to the desired trials for one speficic subject.
 
