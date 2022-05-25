@@ -34,7 +34,7 @@ dataset --
 
 # In publications, please reference:
 
-Úbeda, A., Planelles, D., et al., “Decoding knee angles from EEG signals for different walking speeds,” Conf. Proc. - IEEE Int. Conf. Syst. Man Cybern., vol. 2014-Janua, no. January, pp. 1475–1478, 2014, doi: 10.1109/smc.2014.6974123. (See article [here](https://ieeexplore.ieee.org/document/6974123))
+J.V. Juan, L. de la Ossa, E. Iáñez, M. Ortiz, L. Ferrero and J.M. Azorín (2022). Decoding Lower-Limbs Kinematics from EEG Signals while Walking with an Exoskeleton. Artificial Intelligence in Neuroscience: Affective Analysis and Health Applications. IWINAC 2022. Lecture Notes in Computer Science, vol. 13258, pp. 615-624. Springer, Cham. https://doi.org/10.1007/978-3-031-06242-1_61.
  
 # Documentation:
 
